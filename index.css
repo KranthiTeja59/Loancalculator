@@ -16,10 +16,7 @@ body{
 
 }
 
-table{
-    border-collapse:seperate;
-    border-spacing:0 10px;
-}
+
 .container{
     background: rgba(227, 210, 226, 0.3);
     color: aliceblue;
