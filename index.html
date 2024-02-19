@@ -10,16 +10,26 @@
 <body>
     <div class="container">
         <h1 class="heading">Loan Calculator</h1>
-        <label>Loan Amount $ </label> 
-        <input onchange="calculateLoan()" class="input" type="number" id="la" min="1" max="500000" placeholder="Enter amount">
+        <table>
+            
+        <tr>
+        <th></label>Loan Amount $ </label> </th>
+        <td><input onchange="calculateLoan()" class="input" type="number" id="la" min="1" max="500000" placeholder="Enter amount"></td>
+        </tr>
         
-        <label>Interest Rate % </label>
-        <input onchange="calculateLoan()" class="input" type="number" id="ir" min="0" max="100" placeholder="Enter interest" step=".1">
-        
-       <label> Months to pay   </label>
-        <input onchange="calculateLoan()" class="input" type="number" id="mtp" min="6" max="48" placeholder="Enter months">
-        
-        <p class="payment" id="payment">Monthly Payment:</p>
+        <tr>
+            <th><label>Interest Rate % </label></th>
+       <td> <input onchange="calculateLoan()" class="input" type="number" id="ir" min="0" max="100" placeholder="Enter interest" step=".1"></td>
+        </tr>
+            
+       <tr>
+           <th><label> Months to pay   </label></th>
+       <td> <input onchange="calculateLoan()" class="input" type="number" id="mtp" min="6" max="48" placeholder="Enter months"></td>
+        </tr>
+            
+       <tr>
+           <p class="payment" id="payment">Monthly Payment:</p></tr>
+        </table>
     </div>
 
     <script src="index.js"></script>
