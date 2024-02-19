@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right bottom ,rgb(253, 173, 245),rgb(196, 181, 255),rgb(95, 161, 255));
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(59, 59, 161);
+
+}
+.container{
+    background: rgba(227, 210, 226, 0.3);
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 18px;
+    border:0.1px solid rgb(4, 4, 10);
+    box-shadow: 18px 18px 12px rgba(0,0,0,.3);
+    width:50% ;
+
+}
+
+.paraname{
+    color:black;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.input{
+    width: 75%;
+    font-size: 12px;
+    height: 30px;
+    border:none;
+    border-radius:10px;
+}
+.input:hover{
+    border:1px solid black;
+}
+
+.payment{
+    color:rgb(59, 59, 161);
+    font-weight: 550;
+    font-size: 20px;
+}
