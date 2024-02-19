@@ -10,7 +10,7 @@ body{
 }
 
 .heading{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
     color: rgb(59, 59, 161);
 
@@ -28,7 +28,7 @@ body{
 
 .paraname{
     color:black;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 300;
 }
 
