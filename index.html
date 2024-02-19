@@ -10,15 +10,15 @@
 <body>
     <div class="container">
         <h1 class="heading">Loan Calculator</h1>
-        <p class="paraname">Loan Amount $   :
-            <input onchange="calculateLoan()" class="input" type="number" id="la" min="1" max="500000" placeholder="Enter amount">
-        </p>
-        <p class="paraname">Interest Rate % :
-            <input onchange="calculateLoan()" class="input" type="number" id="ir" min="0" max="100" placeholder="Enter interest" step=".1">
-        </p>
-        <p class="paraname">Months to pay   :
-            <input onchange="calculateLoan()" class="input" type="number" id="mtp" min="6" max="48" placeholder="Enter months">
-        </p>
+        <label>Loan Amount $ </label> 
+        <input onchange="calculateLoan()" class="input" type="number" id="la" min="1" max="500000" placeholder="Enter amount">
+        
+        <label>Interest Rate % </label>
+        <input onchange="calculateLoan()" class="input" type="number" id="ir" min="0" max="100" placeholder="Enter interest" step=".1">
+        
+       <label> Months to pay   </label>
+        <input onchange="calculateLoan()" class="input" type="number" id="mtp" min="6" max="48" placeholder="Enter months">
+        
         <p class="payment" id="payment">Monthly Payment:</p>
     </div>
 
