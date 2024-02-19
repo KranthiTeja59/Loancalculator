@@ -27,12 +27,7 @@ body{
 }
 
 
-label {
-        color:black;
-        display: inline-block;
-        width: 150px;
-        text-align: left;
-}
+
 .input{
     width: 75%;
     font-size: 12px;
